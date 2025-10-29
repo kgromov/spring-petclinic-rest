@@ -24,9 +24,9 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.samples.petclinic.rest.controller.BindingErrorsResponse;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.MethodArgumentNotValidException;
-import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.net.URI;
 import java.time.Instant;
@@ -39,7 +39,7 @@ import java.time.Instant;
  * @author Vitaliy Fedoriv
  * @author Alexander Dudkin
  */
-@ControllerAdvice
+@RestControllerAdvice
 public class ExceptionControllerAdvice {
 
     /**

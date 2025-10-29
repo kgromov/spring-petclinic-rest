@@ -2,7 +2,8 @@
 
 ## Overview
 
-This JMeter test plan is designed to benchmark and measure the scalability of the **Spring PetClinic REST API**. The test performs CRUD operations on the API endpoints, simulating real-world usage patterns.
+This JMeter test plan is designed to benchmark and measure the scalability of the **Spring PetClinic REST API**.   
+The test performs CRUD operations on the API endpoints, simulating real-world usage patterns.
 
 ### What This Test Covers
 

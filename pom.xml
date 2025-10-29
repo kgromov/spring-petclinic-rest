@@ -49,6 +49,7 @@
         <sonar.organization>spring-petclinic-rest</sonar.organization>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
+        <chaos-monkey-spring-boot.version>3.1.0</chaos-monkey-spring-boot.version>
     </properties>
 
     <dependencies>
@@ -179,6 +180,12 @@
             <groupId>javax.xml.bind</groupId>
             <artifactId>jaxb-api</artifactId>
             <version>${jaxb-api.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>de.codecentric</groupId>
+            <artifactId>chaos-monkey-spring-boot</artifactId>
+            <version>${chaos-monkey-spring-boot.version}</version>
         </dependency>
     </dependencies>
 
